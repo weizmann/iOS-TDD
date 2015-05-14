@@ -15,6 +15,11 @@
 		3138DBF31AFFA1D3000DA01D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3138DBF21AFFA1D3000DA01D /* Images.xcassets */; };
 		3138DBF61AFFA1D3000DA01D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3138DBF41AFFA1D3000DA01D /* LaunchScreen.xib */; };
 		3138DC021AFFA1D3000DA01D /* BrowseOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3138DC011AFFA1D3000DA01D /* BrowseOverflowTests.m */; };
+		3138DC101AFFA963000DA01D /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3138DC0F1AFFA963000DA01D /* Topic.m */; };
+		3138DC111AFFA963000DA01D /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3138DC0F1AFFA963000DA01D /* Topic.m */; };
+		3138DC1B1AFFACCA000DA01D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3138DC1A1AFFACCA000DA01D /* SenTestingKit.framework */; };
+		3138DC1E1AFFAE01000DA01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3138DC1D1AFFAE01000DA01D /* UIKit.framework */; };
+		3138DC201AFFB3EC000DA01D /* TestTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3138DC1F1AFFB3EC000DA01D /* TestTopic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,11 @@
 		3138DBFB1AFFA1D3000DA01D /* BrowseOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3138DC001AFFA1D3000DA01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3138DC011AFFA1D3000DA01D /* BrowseOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowTests.m; sourceTree = "<group>"; };
+		3138DC0E1AFFA954000DA01D /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		3138DC0F1AFFA963000DA01D /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		3138DC1A1AFFACCA000DA01D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3138DC1D1AFFAE01000DA01D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3138DC1F1AFFB3EC000DA01D /* TestTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTopic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3138DC1E1AFFAE01000DA01D /* UIKit.framework in Frameworks */,
+				3138DC1B1AFFACCA000DA01D /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +78,8 @@
 		3138DBD61AFFA1D3000DA01D = {
 			isa = PBXGroup;
 			children = (
+				3138DC1D1AFFAE01000DA01D /* UIKit.framework */,
+				3138DC1A1AFFACCA000DA01D /* SenTestingKit.framework */,
 				3138DBE11AFFA1D3000DA01D /* BrowseOverflow */,
 				3138DBFE1AFFA1D3000DA01D /* BrowseOverflowTests */,
 				3138DBE01AFFA1D3000DA01D /* Products */,
@@ -94,6 +108,8 @@
 				3138DBF21AFFA1D3000DA01D /* Images.xcassets */,
 				3138DBF41AFFA1D3000DA01D /* LaunchScreen.xib */,
 				3138DBE21AFFA1D3000DA01D /* Supporting Files */,
+				3138DC0E1AFFA954000DA01D /* Topic.h */,
+				3138DC0F1AFFA963000DA01D /* Topic.m */,
 			);
 			path = BrowseOverflow;
 			sourceTree = "<group>";
@@ -112,6 +128,7 @@
 			children = (
 				3138DC011AFFA1D3000DA01D /* BrowseOverflowTests.m */,
 				3138DBFF1AFFA1D3000DA01D /* Supporting Files */,
+				3138DC1F1AFFB3EC000DA01D /* TestTopic.m */,
 			);
 			path = BrowseOverflowTests;
 			sourceTree = "<group>";
@@ -227,6 +244,7 @@
 				3138DBE81AFFA1D3000DA01D /* AppDelegate.m in Sources */,
 				3138DBEB1AFFA1D3000DA01D /* MasterViewController.m in Sources */,
 				3138DBE51AFFA1D3000DA01D /* main.m in Sources */,
+				3138DC101AFFA963000DA01D /* Topic.m in Sources */,
 				3138DBEE1AFFA1D3000DA01D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3138DC021AFFA1D3000DA01D /* BrowseOverflowTests.m in Sources */,
+				3138DC111AFFA963000DA01D /* Topic.m in Sources */,
+				3138DC201AFFB3EC000DA01D /* TestTopic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +396,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -395,6 +417,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				INFOPLIST_FILE = BrowseOverflowTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
